@@ -279,6 +279,6 @@ class TensorflowModel:
             print(f'score `{self.config.model_name}` not saved yet.')
             return 0, 0, 0, 0
         with open(score_path, 'rb') as file:
-            loses, wins, total = pickle.load(file)
+            wins, loses, total = pickle.load(file)
             win_rate = int(wins / total * 100) if total != 0 else 0
             return loses, wins, total, win_rate

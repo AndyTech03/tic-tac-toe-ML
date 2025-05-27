@@ -251,7 +251,7 @@ if __name__ == '__main__':
 			# index, result = results[i]
 			index = i
 			model = models[index]
-			wins, loses, total, win_rate = model.load_score(tournament_dir)
+			loses, wins, total, win_rate = model.load_score(tournament_dir)
 			# results[i] = (index, [-loses, wins, total, win_rate])
 			test_results.append((index, [-loses, wins, total, win_rate]))
 		print(f'Final test took {end-start:.1f} seconds')
