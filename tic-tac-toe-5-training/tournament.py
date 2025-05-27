@@ -1,7 +1,13 @@
 import os
+import logging
+import warnings
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
-
+logging.getLogger('tensorflow').setLevel(logging.ERROR)
+warnings.filterwarnings(
+    'ignore',
+    message=r".*Skipping variable loading for optimizer.*"
+)
 import shutil
 import datetime
 import pickle
@@ -43,6 +49,10 @@ def print_board(x_moves, o_moves, player_is_x):
 	print(*board[3:6], sep='│')
 	print('──┼──┼──')
 	print(*board[6:], sep='│')
+
+def play_with_self(models):
+	for model in models:
+		play_game([model], [model])
 
 def play_game(models_x, models_o):
 	for model_x in models_x:
@@ -96,6 +106,8 @@ def play_game(models_x, models_o):
 				with open(f'duels/{o_name}.txt', 'a+') as file:
 					file.write(f'{o_name} playing O vs {x_name} playing X\n')
 
+from minimax import MinimaxModel
+from test_tensorflow_model import test_models
 class RandomizerConfig:
 	def __init__(self, index):
 		self.model_name = f'!Random_{index:02d}'
@@ -128,11 +140,9 @@ def train(dir, model: tm.TensorflowModel, epochs,
 		logs.write(str(result) + '\n')
 	print(model.config.model_name, result)
 
-def get_results(models_count, randoms_count, models):
+def get_results(models_count, models):
 	results = {}
 	for i in range(models_count):
-		if i < randoms_count:
-			continue
 		wins_count = 0
 		lose_count = 0
 		draw_count = 0
@@ -156,9 +166,11 @@ def get_results(models_count, randoms_count, models):
 
 if __name__ == '__main__':
 	t_models = []
-	randoms_count = 5
 	home_dir = 'Size_81_81_27'
-	models = [Randomizer(i) for i in range(randoms_count)]
+	tournament_dir = 'tournament'
+	minimax_model = MinimaxModel(1)
+	random_model = Randomizer(2)
+	models = []
 	for model_dir in [*os.walk(home_dir)][0][1]:
 		if model_dir.startswith('!'):
 			continue
@@ -178,58 +190,80 @@ if __name__ == '__main__':
 
 	while True:
 		models_count = len(models)
-		duels_count = 5
 
+		# processes = []
+		# step = 20
+		# indices = [(start, start+step) for start in range(0, models_count, step)]
+		# for start, stop in indices:
+		# 	opponents = models[start:stop]
+		# 	t_x = Process(
+		# 		target=play_game, 
+		# 		args=(
+		# 			[minimax_model], 
+		# 			opponents)
+		# 	)
+		# 	t_o = Process(
+		# 		target=play_game, 
+		# 		args=(
+		# 			opponents,
+		# 			[minimax_model])
+		# 	)
+		# 	processes.append(t_x)
+		# 	processes.append(t_o)
+
+		# print(len(processes), [stop - start for start, stop in indices])
+		# start = time.time()
+		# for process in processes:
+		# 	process.start()
+		# for process in processes:
+		# 	process.join()
+		# end = time.time()
+		# print(f"All tournaments took {end-start:.1f} seconds")
+
+		# results = get_results(models_count, models)
+		# counter = 0
+		# for i, result in results:
+		# 	model: tm.TensorflowModel = models[i]
+		# 	if counter < 10:
+		# 		print(f'{counter+1:02d}. {str(result):20s} {model.config.model_name:20s} age={model.config.age:02d}')
+		# 		counter += 1
+		# 	model.save_score(tournament_dir, -result[0], result[1], result[2])
+		# print()
 		processes = []
-		for x_i in range(models_count):
-			models_set = [i for i in range(models_count) if i != x_i]
-			random.shuffle(models_set)
-			models_set.insert(0, x_i)
+		test_results = []
+		step = 5
+		indices = [(start, start+step) for start in range(0, models_count, step)]
+		for start, end in indices:
+			# top_models = [models[i] for i, _ in results[start:end]]
 			t = Process(
-				target=play_game, 
-				args=(
-					[models[x_i]], 
-					[models[o_i] for o_i in models_set[:duels_count+1]])
+				target=test_models,
+				# args=(tournament_dir, top_models)
+				args=(tournament_dir, models[start:end])
 			)
 			processes.append(t)
-		print(len(processes))
 		start = time.time()
 		for process in processes:
 			process.start()
 		for process in processes:
 			process.join()
 		end = time.time()
-		print(f"All tournaments took {end-start:.1f} seconds")
+		for i in range(models_count):
+			# index, result = results[i]
+			index = i
+			model = models[index]
+			wins, loses, total, win_rate = model.load_score(tournament_dir)
+			# results[i] = (index, [-loses, wins, total, win_rate])
+			test_results.append((index, [-loses, wins, total, win_rate]))
+		print(f'Final test took {end-start:.1f} seconds')
+		
+		results = sorted(test_results, reverse=True, key=lambda x: (x[1][0], x[1][3]))
+		counter = 0
+		for i, result in results[:10]:
+			model: tm.TensorflowModel = models[i]
+			print(f'{counter+1:02d}. {str(result):20s} {model.config.model_name:20s} age={model.config.age:02d}')
+			counter += 1
+		print()
 
-		results = get_results(models_count, randoms_count, models)
-		processes = []
-		top_count = 10
-		for model_i, _ in results[:top_count]:
-			opponents = [models[results[i][0]] for i in range(20) if i != model_i]
-			t = Process(
-				target=play_game, 
-				args=(
-					[models[model_i]], 
-					opponents
-					))
-			processes.append(t)
-			t = Process(
-				target=play_game, 
-				args=(
-					opponents,
-					[models[model_i]]
-					))
-			processes.append(t)
-		print(len(processes))
-		start = time.time()
-		for process in processes:
-			process.start()
-		for process in processes:
-			process.join()
-		end = time.time()
-		print(f"Bests tournaments took {end-start:.1f} seconds")
-
-		results = get_results(models_count, randoms_count, models)
 		now = datetime.datetime.now()
 		print(now)
 		del_list = []
@@ -238,7 +272,8 @@ if __name__ == '__main__':
 			file.write(f'{now}\n')
 			counter = 1
 			for i, result in results:
-				file.write(f'{counter:02d}. {result} {models[i].config.model_name}\n')
+				model = models[i]
+				file.write(f'{counter:02d}. {str(result):20s} {model.config.model_name:20s} age={model.config.age:02d}\n')
 				counter += 1
 
 			for i, result in results[30:]:
@@ -274,7 +309,7 @@ if __name__ == '__main__':
 
 		counter = 1
 		for i, result in results[:3]:
-			models[i].save_model(f'tournament/!top_{counter}')
+			models[i].save_model(f'{tournament_dir}/!top_{counter}')
 			counter += 1
 
 		now_file_postfix = f'{now.month}_{now.day}_{now.hour}_{now.minute}'
@@ -295,7 +330,7 @@ if __name__ == '__main__':
 		with open('training.log', 'a') as file:
 			for deleting in del_list:
 				file.write(f'removed {deleting.config.model_name}\n')
-				deleting.remove_model('tournament')
+				deleting.remove_model(tournament_dir)
 				models.remove(deleting)
 			file.write('\n')
 
@@ -305,9 +340,9 @@ if __name__ == '__main__':
 			t = Process(
 			target=train, 
 				args=(
-					'tournament', 
+					tournament_dir, 
 					model, 
-					30,
+					10,
 					train_datasets[strategy],
 					test_datasets[strategy]
 					))
@@ -320,12 +355,12 @@ if __name__ == '__main__':
 		end = time.time()
 
 		processes = []
-		for model in models[randoms_count:]:
+		for model in models:
 			strategy = model.config.input_strategy_number
 			t = Process(
 			target=train, 
 				args=(
-					'tournament', 
+					tournament_dir, 
 					model, 
 					10,
 					train_datasets[strategy],
@@ -345,9 +380,9 @@ if __name__ == '__main__':
 			t = Process(
 			target=train, 
 				args=(
-					'tournament', 
+					tournament_dir, 
 					model, 
-					100,
+					20,
 					train_datasets[strategy],
 					test_datasets[strategy]
 					))
@@ -359,14 +394,16 @@ if __name__ == '__main__':
 			processes[i].join()
 		end = time.time()
 		print(f"All trainings took {end-start:.1f} seconds")
-			
+		
+		for model in models:
+			model.increment_age()
 		for adding in add_list:
 			models.append(adding)
 		for raw_model in raw_models:
 			models.append(raw_model)
-		for model in models[randoms_count:]:
-			model.save_model('tournament')
-		shutil.copytree('tournament', f'archive/{now_file_postfix}')
+		for model in models:
+			model.save_model(tournament_dir)
+		shutil.copytree(tournament_dir, f'archive/{now_file_postfix}')
 		duels_path = os.path.join('duels')
 		shutil.rmtree(duels_path)
 		os.mkdir(duels_path)

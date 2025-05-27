@@ -4108,3 +4108,1591 @@ removed Andrew_Model_652
 removed Nichole_Model_539
 removed John_Model_412
 
+2025-05-25 19:07:35.549230
+01. [0, 2, 13, 15] Logan_Model_367
+02. [0, 2, 13, 15] Kelsey_Model_922
+03. [0, 2, 13, 15] Jerry_Model_119
+04. [0, 1, 9, 11] Brooke_Model_860
+05. [0, 3, 32, 9] Austin_Model_903
+06. [0, 1, 11, 9] Amy_Model_639
+07. [0, 1, 11, 9] Erica_Model_322
+08. [0, 1, 11, 9] Yolanda_Model_57
+09. [0, 1, 11, 9] Danielle_Model_550
+10. [0, 1, 11, 9] Ryan_Model_307
+11. [0, 1, 11, 9] Hannah_Model_984
+12. [0, 3, 34, 8] Kimberly_Model_873
+13. [0, 6, 71, 8] Joseph_Model_895
+14. [0, 1, 12, 8] Marissa_Model_760
+15. [0, 1, 12, 8] Ryan_Model_323
+16. [0, 1, 12, 8] Michael_Model_358
+17. [0, 1, 12, 8] Joshua_Model_694
+18. [0, 1, 13, 7] Darren_Model_120
+19. [0, 1, 13, 7] Barbara_Model_838
+20. [0, 2, 28, 7] Holly_Model_602
+21. [0, 5, 70, 7] Katie_Model_468
+22. [0, 2, 29, 6] Paula_Model_747
+23. [0, 2, 29, 6] Veronica_Model_749
+24. [0, 2, 29, 6] Jeffrey_Model_677
+25. [0, 2, 29, 6] Tracey_Model_204
+26. [0, 2, 30, 6] Ruth_Model_911
+27. [0, 2, 31, 6] Xavier_Model_20
+28. [0, 2, 31, 6] Patricia_Model_947
+29. [0, 4, 71, 5] Brian_Model_879
+30. [0, 4, 71, 5] Lee_Model_323
+31. [0, 4, 73, 5] Melanie_Model_812
+32. [0, 4, 73, 5] Alyssa_Model_561
+33. [0, 3, 69, 4] Brandi_Model_74
+34. [0, 3, 69, 4] Steven_Model_126
+35. [0, 3, 70, 4] Melissa_Model_606
+36. [0, 0, 12, 0] Denise_Model_757
+37. [0, 0, 11, 0] Anna_Model_418
+38. [0, 0, 10, 0] Erin_Model_614
+39. [0, 0, 12, 0] Douglas_Model_83
+40. [-1, 3, 11, 27] Tara_Model_418
+41. [-1, 3, 13, 23] Ariel_Model_904
+42. [-1, 1, 12, 8] Abigail_Model_302
+43. [-1, 1, 13, 7] Walter_Model_966
+44. [-1, 0, 16, 0] Christopher_Model_916
+45. [-1, 0, 12, 0] Dawn_Model_666
+46. [-1, 0, 11, 0] Gerald_Model_778
+47. [-2, 2, 15, 13] Gilbert_Model_750
+48. [-2, 0, 16, 0] Julie_Model_185
+49. [-3, 4, 10, 40] Maria_Model_153
+50. [-4, 1, 11, 9] New_5_25_18_37_10
+51. [-5, 5, 10, 50] New_5_25_18_37_8
+52. [-5, 1, 10, 10] New_5_25_18_37_1
+53. [-5, 6, 70, 8] Brandi_Model_692
+54. [-7, 2, 9, 22] New_5_25_18_37_7
+55. [-7, 2, 13, 15] New_5_25_18_37_2
+56. [-8, 2, 12, 16] New_5_25_18_37_4
+57. [-9, 6, 17, 35] New_5_25_18_37_6
+58. [-9, 2, 14, 14] New_5_25_18_37_9
+59. [-9, 1, 11, 9] New_5_25_18_37_3
+60. [-10, 2, 14, 14] New_5_25_18_37_5
+crossover 1 Derek_Model_715
+crossover 1 Kayla_Model_463
+crossover 1 Alexander_Model_382
+crossover 1 Michael_Model_399
+crossover 1 Laura_Model_725
+crossover 1 Melissa_Model_439
+crossover 1 Paul_Model_296
+crossover 1 Lindsey_Model_18
+crossover 1 Danielle_Model_995
+crossover 2 Christopher_Model_638
+mutate add Sean_Model_48
+mutate add Billy_Model_240
+mutate add Shawn_Model_394
+mutate add David_Model_470
+mutate add Autumn_Model_381
+mutate add Lauren_Model_26
+mutate add Luis_Model_578
+mutate add Samantha_Model_224
+mutate add Christine_Model_981
+mutate add Susan_Model_221
+mutate replace Andrew_Model_466
+mutate replace Hunter_Model_9
+mutate replace Joseph_Model_91
+mutate replace Lisa_Model_468
+mutate replace Mary_Model_322
+mutate replace Kristin_Model_608
+mutate replace Brian_Model_352
+mutate replace Brandy_Model_148
+mutate replace Jessica_Model_605
+mutate replace Amber_Model_875
+removed Melanie_Model_812
+removed Alyssa_Model_561
+removed Brandi_Model_74
+removed Steven_Model_126
+removed Melissa_Model_606
+removed Denise_Model_757
+removed Anna_Model_418
+removed Erin_Model_614
+removed Douglas_Model_83
+removed Tara_Model_418
+removed Ariel_Model_904
+removed Abigail_Model_302
+removed Walter_Model_966
+removed Christopher_Model_916
+removed Dawn_Model_666
+removed Gerald_Model_778
+removed Gilbert_Model_750
+removed Julie_Model_185
+removed Maria_Model_153
+removed New_5_25_18_37_10
+removed New_5_25_18_37_8
+removed New_5_25_18_37_1
+removed Brandi_Model_692
+removed New_5_25_18_37_7
+removed New_5_25_18_37_2
+removed New_5_25_18_37_4
+removed New_5_25_18_37_6
+removed New_5_25_18_37_9
+removed New_5_25_18_37_3
+removed New_5_25_18_37_5
+removed Katie_Model_468
+removed Paula_Model_747
+removed Veronica_Model_749
+removed Jeffrey_Model_677
+removed Tracey_Model_204
+removed Ruth_Model_911
+removed Xavier_Model_20
+removed Patricia_Model_947
+removed Brian_Model_879
+removed Lee_Model_323
+
+2025-05-25 19:36:47.834643
+01. [0, 3, 14, 21] Shawn_Model_394
+02. [0, 3, 14, 21] Hunter_Model_9
+03. [0, 2, 11, 18] Andrew_Model_466
+04. [0, 2, 11, 18] Brandy_Model_148
+05. [0, 2, 12, 16] Ryan_Model_323
+06. [0, 2, 14, 14] Holly_Model_602
+07. [0, 2, 15, 13] Sean_Model_48
+08. [0, 4, 31, 12] Michael_Model_399
+09. [0, 4, 33, 12] Derek_Model_715
+10. [0, 1, 9, 11] Laura_Model_725
+11. [0, 1, 9, 11] Danielle_Model_995
+12. [0, 1, 9, 11] Brian_Model_352
+13. [0, 3, 29, 10] Ryan_Model_307
+14. [0, 3, 30, 10] Erica_Model_322
+15. [0, 3, 30, 10] Joseph_Model_895
+16. [0, 1, 10, 10] Danielle_Model_550
+17. [0, 3, 31, 9] Samantha_Model_224
+18. [0, 3, 32, 9] Darren_Model_120
+19. [0, 3, 32, 9] Melissa_Model_439
+20. [0, 3, 32, 9] Autumn_Model_381
+21. [0, 1, 11, 9] Joshua_Model_694
+22. [0, 1, 12, 8] Logan_Model_367
+23. [0, 1, 12, 8] Paul_Model_296
+24. [0, 1, 12, 8] Lauren_Model_26
+25. [0, 1, 13, 7] Jerry_Model_119
+26. [0, 2, 27, 7] Amy_Model_639
+27. [0, 1, 14, 7] Michael_Model_358
+28. [0, 5, 72, 6] Jessica_Model_605
+29. [0, 5, 73, 6] Amber_Model_875
+30. [0, 4, 68, 5] Marissa_Model_760
+31. [0, 4, 69, 5] Brooke_Model_860
+32. [0, 4, 70, 5] Austin_Model_903
+33. [0, 4, 70, 5] Hannah_Model_984
+34. [0, 4, 71, 5] Barbara_Model_838
+35. [0, 4, 72, 5] Lisa_Model_468
+36. [0, 4, 72, 5] Kristin_Model_608
+37. [0, 3, 67, 4] Kimberly_Model_873
+38. [0, 0, 8, 0] Kayla_Model_463
+39. [0, 0, 15, 0] Luis_Model_578
+40. [-1, 7, 13, 53] Joseph_Model_91
+41. [-1, 3, 10, 30] Susan_Model_221
+42. [-1, 4, 17, 23] Christine_Model_981
+43. [-1, 2, 13, 15] Christopher_Model_638
+44. [-1, 2, 17, 11] Yolanda_Model_57
+45. [-1, 1, 11, 9] Lindsey_Model_18
+46. [-1, 0, 9, 0] Kelsey_Model_922
+47. [-3, 2, 8, 25] New_5_25_19_7_9
+48. [-5, 6, 11, 54] New_5_25_19_7_3
+49. [-5, 5, 14, 35] Alexander_Model_382
+50. [-5, 0, 12, 0] New_5_25_19_7_6
+51. [-8, 2, 12, 16] New_5_25_19_7_4
+52. [-8, 1, 11, 9] Mary_Model_322
+53. [-9, 2, 11, 18] New_5_25_19_7_2
+54. [-9, 2, 11, 18] New_5_25_19_7_10
+55. [-9, 1, 10, 10] New_5_25_19_7_1
+56. [-10, 3, 19, 15] New_5_25_19_7_5
+57. [-10, 2, 15, 13] Billy_Model_240
+58. [-10, 1, 13, 7] New_5_25_19_7_7
+59. [-11, 5, 18, 27] New_5_25_19_7_8
+60. [-12, 1, 13, 7] David_Model_470
+crossover 1 Jose_Model_172
+crossover 1 Andrew_Model_925
+crossover 1 Ryan_Model_121
+crossover 1 Michael_Model_13
+crossover 1 Mark_Model_216
+crossover 1 Danielle_Model_501
+crossover 1 Patrick_Model_301
+crossover 1 Joseph_Model_45
+crossover 1 Brian_Model_915
+crossover 2 Mark_Model_391
+mutate add Debra_Model_645
+mutate add Scott_Model_601
+mutate add Lauren_Model_568
+mutate add Christopher_Model_74
+mutate add Michael_Model_143
+mutate add Joseph_Model_122
+mutate add Karen_Model_467
+mutate add Debbie_Model_242
+mutate add Jennifer_Model_434
+mutate add Robert_Model_699
+mutate replace Thomas_Model_773
+mutate replace Bradley_Model_689
+mutate replace Jennifer_Model_82
+mutate replace Robert_Model_599
+mutate replace Jonathan_Model_958
+mutate replace Matthew_Model_568
+mutate replace Philip_Model_648
+mutate replace Tracy_Model_376
+mutate replace Donald_Model_631
+mutate replace Victoria_Model_665
+removed Brooke_Model_860
+removed Austin_Model_903
+removed Hannah_Model_984
+removed Barbara_Model_838
+removed Lisa_Model_468
+removed Kristin_Model_608
+removed Kimberly_Model_873
+removed Kayla_Model_463
+removed Luis_Model_578
+removed Joseph_Model_91
+removed Susan_Model_221
+removed Christine_Model_981
+removed Christopher_Model_638
+removed Yolanda_Model_57
+removed Lindsey_Model_18
+removed Kelsey_Model_922
+removed New_5_25_19_7_9
+removed New_5_25_19_7_3
+removed Alexander_Model_382
+removed New_5_25_19_7_6
+removed New_5_25_19_7_4
+removed Mary_Model_322
+removed New_5_25_19_7_2
+removed New_5_25_19_7_10
+removed New_5_25_19_7_1
+removed New_5_25_19_7_5
+removed Billy_Model_240
+removed New_5_25_19_7_7
+removed New_5_25_19_7_8
+removed David_Model_470
+removed Joshua_Model_694
+removed Logan_Model_367
+removed Paul_Model_296
+removed Lauren_Model_26
+removed Jerry_Model_119
+removed Amy_Model_639
+removed Michael_Model_358
+removed Jessica_Model_605
+removed Amber_Model_875
+removed Marissa_Model_760
+
+2025-05-25 20:06:22.776919
+01. [0, 2, 12, 16] Danielle_Model_995
+02. [0, 2, 12, 16] Shawn_Model_394
+03. [0, 2, 12, 16] Joseph_Model_122
+04. [0, 2, 12, 16] Jennifer_Model_82
+05. [0, 2, 12, 16] Matthew_Model_568
+06. [0, 2, 13, 15] Karen_Model_467
+07. [0, 2, 13, 15] Robert_Model_599
+08. [0, 2, 14, 14] Joseph_Model_45
+09. [0, 4, 35, 11] Derek_Model_715
+10. [0, 7, 69, 10] Holly_Model_602
+11. [0, 1, 10, 10] Ryan_Model_307
+12. [0, 1, 10, 10] Andrew_Model_925
+13. [0, 1, 10, 10] Thomas_Model_773
+14. [0, 3, 32, 9] Melissa_Model_439
+15. [0, 1, 11, 9] Darren_Model_120
+16. [0, 1, 11, 9] Danielle_Model_550
+17. [0, 1, 11, 9] Samantha_Model_224
+18. [0, 1, 11, 9] Andrew_Model_466
+19. [0, 1, 13, 7] Michael_Model_399
+20. [0, 5, 68, 7] Jennifer_Model_434
+21. [0, 5, 71, 7] Bradley_Model_689
+22. [0, 5, 76, 6] Brandy_Model_148
+23. [0, 3, 71, 4] Michael_Model_143
+24. [0, 0, 10, 0] Joseph_Model_895
+25. [0, 0, 13, 0] Autumn_Model_381
+26. [0, 0, 13, 0] Brian_Model_352
+27. [0, 0, 13, 0] Philip_Model_648
+28. [-1, 2, 10, 20] Brian_Model_915
+29. [-1, 3, 16, 18] Victoria_Model_665
+30. [-1, 2, 13, 15] Jonathan_Model_958
+31. [-1, 2, 15, 13] Debbie_Model_242
+32. [-1, 3, 30, 10] Mark_Model_216
+33. [-1, 3, 30, 10] Debra_Model_645
+34. [-1, 3, 31, 9] Christopher_Model_74
+35. [-1, 1, 12, 8] Sean_Model_48
+36. [-1, 3, 37, 8] Patrick_Model_301
+37. [-1, 1, 13, 7] Hunter_Model_9
+38. [-1, 2, 30, 6] Donald_Model_631
+39. [-1, 2, 31, 6] Jose_Model_172
+40. [-1, 2, 31, 6] Tracy_Model_376
+41. [-1, 2, 32, 6] Laura_Model_725
+42. [-2, 3, 8, 37] Mark_Model_391
+43. [-2, 4, 12, 33] Scott_Model_601
+44. [-2, 22, 74, 29] Ryan_Model_121
+45. [-2, 3, 12, 25] Danielle_Model_501
+46. [-2, 5, 72, 6] Lauren_Model_568
+47. [-2, 4, 67, 5] Erica_Model_322
+48. [-2, 4, 69, 5] Robert_Model_699
+49. [-2, 0, 12, 0] Ryan_Model_323
+50. [-7, 2, 9, 22] New_5_25_19_36_6
+51. [-8, 5, 13, 38] New_5_25_19_36_9
+52. [-8, 4, 13, 30] New_5_25_19_36_8
+53. [-8, 3, 14, 21] New_5_25_19_36_2
+54. [-8, 2, 13, 15] New_5_25_19_36_4
+55. [-8, 0, 12, 0] New_5_25_19_36_7
+56. [-9, 4, 14, 28] New_5_25_19_36_5
+57. [-9, 2, 11, 18] New_5_25_19_36_3
+58. [-10, 4, 15, 26] New_5_25_19_36_10
+59. [-12, 1, 13, 7] New_5_25_19_36_1
+60. [-16, 2, 68, 2] Michael_Model_13
+crossover 1 Patricia_Model_760
+crossover 1 Samuel_Model_572
+crossover 1 Brenda_Model_729
+crossover 1 Anthony_Model_936
+crossover 1 George_Model_768
+crossover 1 Becky_Model_591
+crossover 1 Larry_Model_730
+crossover 1 Darren_Model_923
+crossover 1 Albert_Model_12
+crossover 2 Albert_Model_222
+mutate add Connor_Model_580
+mutate add Michael_Model_803
+mutate add Joshua_Model_746
+mutate add Deborah_Model_715
+mutate add Luis_Model_322
+mutate add Lisa_Model_687
+mutate add Debbie_Model_468
+mutate add Tiffany_Model_262
+mutate add Tracy_Model_707
+mutate add Jacqueline_Model_254
+mutate replace John_Model_11
+mutate replace Joseph_Model_877
+mutate replace David_Model_787
+mutate replace Derrick_Model_89
+mutate replace Mike_Model_141
+mutate replace John_Model_566
+mutate replace Gary_Model_471
+mutate replace Christopher_Model_395
+mutate replace Nathan_Model_414
+mutate replace Melissa_Model_530
+removed Debbie_Model_242
+removed Mark_Model_216
+removed Debra_Model_645
+removed Christopher_Model_74
+removed Sean_Model_48
+removed Patrick_Model_301
+removed Hunter_Model_9
+removed Donald_Model_631
+removed Jose_Model_172
+removed Tracy_Model_376
+removed Laura_Model_725
+removed Mark_Model_391
+removed Scott_Model_601
+removed Ryan_Model_121
+removed Danielle_Model_501
+removed Lauren_Model_568
+removed Erica_Model_322
+removed Robert_Model_699
+removed Ryan_Model_323
+removed New_5_25_19_36_6
+removed New_5_25_19_36_9
+removed New_5_25_19_36_8
+removed New_5_25_19_36_2
+removed New_5_25_19_36_4
+removed New_5_25_19_36_7
+removed New_5_25_19_36_5
+removed New_5_25_19_36_3
+removed New_5_25_19_36_10
+removed New_5_25_19_36_1
+removed Michael_Model_13
+removed Bradley_Model_689
+removed Brandy_Model_148
+removed Michael_Model_143
+removed Joseph_Model_895
+removed Autumn_Model_381
+removed Brian_Model_352
+removed Philip_Model_648
+removed Brian_Model_915
+removed Victoria_Model_665
+removed Jonathan_Model_958
+
+2025-05-25 20:37:55.831768
+01. [0, 2, 10, 20] Deborah_Model_715
+02. [0, 2, 11, 18] George_Model_768
+03. [0, 2, 11, 18] Albert_Model_12
+04. [0, 2, 11, 18] Luis_Model_322
+05. [0, 2, 12, 16] Mike_Model_141
+06. [0, 2, 13, 15] Derek_Model_715
+07. [0, 2, 13, 15] Karen_Model_467
+08. [0, 4, 35, 11] Nathan_Model_414
+09. [0, 1, 9, 11] Joseph_Model_877
+10. [0, 1, 10, 10] Tiffany_Model_262
+11. [0, 1, 10, 10] David_Model_787
+12. [0, 3, 31, 9] Samuel_Model_572
+13. [0, 3, 32, 9] Derrick_Model_89
+14. [0, 1, 11, 9] Thomas_Model_773
+15. [0, 3, 34, 8] John_Model_11
+16. [0, 6, 72, 8] Joseph_Model_122
+17. [0, 1, 13, 7] Andrew_Model_466
+18. [0, 2, 27, 7] Michael_Model_399
+19. [0, 2, 28, 7] Darren_Model_120
+20. [0, 2, 28, 7] Robert_Model_599
+21. [0, 5, 70, 7] Darren_Model_923
+22. [0, 1, 14, 7] Joshua_Model_746
+23. [0, 2, 29, 6] Melissa_Model_439
+24. [0, 2, 29, 6] John_Model_566
+25. [0, 2, 30, 6] Jennifer_Model_434
+26. [0, 1, 15, 6] Matthew_Model_568
+27. [0, 1, 15, 6] Jacqueline_Model_254
+28. [0, 4, 71, 5] Holly_Model_602
+29. [0, 4, 73, 5] Danielle_Model_550
+30. [0, 4, 73, 5] Connor_Model_580
+31. [0, 4, 73, 5] Lisa_Model_687
+32. [0, 3, 67, 4] Ryan_Model_307
+33. [0, 3, 67, 4] Shawn_Model_394
+34. [0, 3, 67, 4] Samantha_Model_224
+35. [0, 3, 69, 4] Melissa_Model_530
+36. [0, 0, 13, 0] Danielle_Model_995
+37. [0, 0, 11, 0] Andrew_Model_925
+38. [0, 0, 12, 0] Jennifer_Model_82
+39. [-1, 7, 11, 63] Michael_Model_803
+40. [-1, 5, 16, 31] Debbie_Model_468
+41. [-1, 4, 13, 30] Christopher_Model_395
+42. [-1, 4, 15, 26] Patricia_Model_760
+43. [-1, 3, 16, 18] Joseph_Model_45
+44. [-1, 2, 11, 18] Albert_Model_222
+45. [-2, 3, 9, 33] New_5_25_20_6_1
+46. [-2, 1, 12, 8] Tracy_Model_707
+47. [-3, 3, 8, 37] Gary_Model_471
+48. [-3, 3, 12, 25] Brenda_Model_729
+49. [-4, 2, 14, 14] Larry_Model_730
+50. [-4, 0, 15, 0] Anthony_Model_936
+51. [-5, 3, 11, 27] New_5_25_20_6_3
+52. [-5, 2, 10, 20] New_5_25_20_6_2
+53. [-5, 2, 14, 14] Becky_Model_591
+54. [-6, 2, 8, 25] New_5_25_20_6_8
+55. [-6, 1, 9, 11] New_5_25_20_6_6
+56. [-9, 2, 11, 18] New_5_25_20_6_5
+57. [-9, 2, 11, 18] New_5_25_20_6_7
+58. [-10, 1, 11, 9] New_5_25_20_6_10
+59. [-11, 1, 12, 8] New_5_25_20_6_9
+60. [-14, 1, 17, 5] New_5_25_20_6_4
+crossover 1 Elizabeth_Model_346
+crossover 1 Christopher_Model_603
+crossover 1 Pamela_Model_635
+crossover 1 Daniel_Model_737
+crossover 1 Steven_Model_645
+crossover 1 Sarah_Model_984
+crossover 1 Christy_Model_251
+crossover 1 Regina_Model_970
+crossover 1 Jason_Model_304
+crossover 2 Mary_Model_442
+mutate add Amy_Model_778
+mutate add Tammy_Model_425
+mutate add Brenda_Model_619
+mutate add Amber_Model_884
+mutate add Amber_Model_869
+mutate add Donald_Model_195
+mutate add Alicia_Model_522
+mutate add Christopher_Model_818
+mutate add Jeanne_Model_210
+mutate add April_Model_187
+mutate replace Robert_Model_745
+mutate replace Christopher_Model_427
+mutate replace Lindsey_Model_18
+mutate replace Lisa_Model_56
+mutate replace Linda_Model_532
+mutate replace Dawn_Model_753
+mutate replace Elizabeth_Model_219
+mutate replace Kent_Model_470
+mutate replace Jennifer_Model_565
+mutate replace Andrea_Model_805
+removed Lisa_Model_687
+removed Ryan_Model_307
+removed Shawn_Model_394
+removed Samantha_Model_224
+removed Melissa_Model_530
+removed Danielle_Model_995
+removed Andrew_Model_925
+removed Jennifer_Model_82
+removed Michael_Model_803
+removed Debbie_Model_468
+removed Christopher_Model_395
+removed Patricia_Model_760
+removed Joseph_Model_45
+removed Albert_Model_222
+removed New_5_25_20_6_1
+removed Tracy_Model_707
+removed Gary_Model_471
+removed Brenda_Model_729
+removed Larry_Model_730
+removed Anthony_Model_936
+removed New_5_25_20_6_3
+removed New_5_25_20_6_2
+removed Becky_Model_591
+removed New_5_25_20_6_8
+removed New_5_25_20_6_6
+removed New_5_25_20_6_5
+removed New_5_25_20_6_7
+removed New_5_25_20_6_10
+removed New_5_25_20_6_9
+removed New_5_25_20_6_4
+removed Darren_Model_923
+removed Joshua_Model_746
+removed Melissa_Model_439
+removed John_Model_566
+removed Jennifer_Model_434
+removed Matthew_Model_568
+removed Jacqueline_Model_254
+removed Holly_Model_602
+removed Danielle_Model_550
+removed Connor_Model_580
+
+2025-05-25 21:09:42.099489
+01. [0, 2, 14, 14] Deborah_Model_715
+02. [0, 2, 15, 13] Robert_Model_599
+03. [0, 2, 15, 13] Alicia_Model_522
+04. [0, 2, 16, 12] Jennifer_Model_565
+05. [0, 1, 9, 11] Mike_Model_141
+06. [0, 1, 9, 11] Christy_Model_251
+07. [0, 1, 11, 9] Albert_Model_12
+08. [0, 1, 11, 9] Robert_Model_745
+09. [0, 1, 11, 9] Elizabeth_Model_219
+10. [0, 3, 35, 8] Joseph_Model_122
+11. [0, 3, 35, 8] Kent_Model_470
+12. [0, 1, 12, 8] Jeanne_Model_210
+13. [0, 5, 68, 7] Samuel_Model_572
+14. [0, 2, 28, 7] Christopher_Model_427
+15. [0, 5, 72, 6] Elizabeth_Model_346
+16. [0, 5, 72, 6] Pamela_Model_635
+17. [0, 1, 15, 6] Luis_Model_322
+18. [0, 1, 15, 6] Tiffany_Model_262
+19. [0, 2, 30, 6] Christopher_Model_603
+20. [0, 2, 31, 6] Darren_Model_120
+21. [0, 2, 31, 6] Steven_Model_645
+22. [0, 2, 32, 6] Thomas_Model_773
+23. [0, 2, 32, 6] Joseph_Model_877
+24. [0, 4, 67, 5] Nathan_Model_414
+25. [0, 2, 34, 5] Michael_Model_399
+26. [0, 4, 70, 5] Derrick_Model_89
+27. [0, 4, 70, 5] Amy_Model_778
+28. [0, 4, 73, 5] Linda_Model_532
+29. [0, 4, 75, 5] Daniel_Model_737
+30. [0, 4, 75, 5] Amber_Model_884
+31. [0, 3, 73, 4] Lindsey_Model_18
+32. [0, 0, 9, 0] Derek_Model_715
+33. [0, 0, 11, 0] John_Model_11
+34. [0, 0, 13, 0] David_Model_787
+35. [0, 0, 12, 0] Amber_Model_869
+36. [-1, 2, 11, 18] Christopher_Model_818
+37. [-1, 2, 12, 16] Karen_Model_467
+38. [-1, 1, 12, 8] Mary_Model_442
+39. [-1, 1, 12, 8] Tammy_Model_425
+40. [-2, 3, 10, 30] Andrea_Model_805
+41. [-2, 4, 14, 28] Regina_Model_970
+42. [-2, 3, 11, 27] Andrew_Model_466
+43. [-2, 3, 12, 25] Donald_Model_195
+44. [-2, 3, 12, 25] Lisa_Model_56
+45. [-2, 2, 12, 16] George_Model_768
+46. [-2, 1, 12, 8] April_Model_187
+47. [-2, 2, 29, 6] Sarah_Model_984
+48. [-3, 3, 11, 27] New_5_25_20_37_10
+49. [-4, 2, 10, 20] Dawn_Model_753
+50. [-5, 6, 17, 35] Jason_Model_304
+51. [-5, 2, 10, 20] Brenda_Model_619
+52. [-5, 2, 11, 18] New_5_25_20_37_5
+53. [-6, 3, 12, 25] New_5_25_20_37_1
+54. [-6, 2, 11, 18] New_5_25_20_37_4
+55. [-7, 3, 10, 30] New_5_25_20_37_6
+56. [-7, 1, 11, 9] New_5_25_20_37_3
+57. [-8, 2, 11, 18] New_5_25_20_37_2
+58. [-8, 1, 9, 11] New_5_25_20_37_9
+59. [-11, 1, 13, 7] New_5_25_20_37_8
+60. [-11, 1, 15, 6] New_5_25_20_37_7
+crossover 1 Julie_Model_834
+crossover 1 Richard_Model_18
+crossover 1 Anita_Model_918
+crossover 1 Henry_Model_896
+crossover 1 Ashley_Model_332
+crossover 1 Rhonda_Model_137
+crossover 1 Peggy_Model_509
+crossover 1 Thomas_Model_535
+crossover 1 Selena_Model_97
+crossover 2 Christine_Model_995
+mutate add Ashley_Model_534
+mutate add Heather_Model_756
+mutate add Ashley_Model_187
+mutate add Taylor_Model_5
+mutate add Peter_Model_696
+mutate add Alejandra_Model_649
+mutate add Jonathan_Model_226
+mutate add Anthony_Model_316
+mutate add Christina_Model_177
+mutate add Susan_Model_853
+mutate replace Jessica_Model_999
+mutate replace Lauren_Model_262
+mutate replace David_Model_356
+mutate replace Stacy_Model_311
+mutate replace Rebecca_Model_126
+mutate replace Margaret_Model_274
+mutate replace Jorge_Model_349
+mutate replace William_Model_353
+mutate replace Timothy_Model_445
+mutate replace Amanda_Model_111
+removed Lindsey_Model_18
+removed Derek_Model_715
+removed John_Model_11
+removed David_Model_787
+removed Amber_Model_869
+removed Christopher_Model_818
+removed Karen_Model_467
+removed Mary_Model_442
+removed Tammy_Model_425
+removed Andrea_Model_805
+removed Regina_Model_970
+removed Andrew_Model_466
+removed Donald_Model_195
+removed Lisa_Model_56
+removed George_Model_768
+removed April_Model_187
+removed Sarah_Model_984
+removed New_5_25_20_37_10
+removed Dawn_Model_753
+removed Jason_Model_304
+removed Brenda_Model_619
+removed New_5_25_20_37_5
+removed New_5_25_20_37_1
+removed New_5_25_20_37_4
+removed New_5_25_20_37_6
+removed New_5_25_20_37_3
+removed New_5_25_20_37_2
+removed New_5_25_20_37_9
+removed New_5_25_20_37_8
+removed New_5_25_20_37_7
+removed Steven_Model_645
+removed Thomas_Model_773
+removed Joseph_Model_877
+removed Nathan_Model_414
+removed Michael_Model_399
+removed Derrick_Model_89
+removed Amy_Model_778
+removed Linda_Model_532
+removed Daniel_Model_737
+removed Amber_Model_884
+
+2025-05-25 21:41:01.361707
+01. [0, 2, 9, 22] Timothy_Model_445
+02. [0, 3, 14, 21] Selena_Model_97
+03. [0, 3, 14, 21] Margaret_Model_274
+04. [0, 2, 10, 20] Alicia_Model_522
+05. [0, 2, 10, 20] Taylor_Model_5
+06. [0, 2, 12, 16] Darren_Model_120
+07. [0, 2, 12, 16] David_Model_356
+08. [0, 2, 13, 15] Kent_Model_470
+09. [0, 2, 13, 15] Ashley_Model_534
+10. [0, 2, 16, 12] Thomas_Model_535
+11. [0, 1, 8, 12] Peter_Model_696
+12. [0, 1, 9, 11] Robert_Model_599
+13. [0, 1, 9, 11] Christopher_Model_427
+14. [0, 2, 18, 11] Julie_Model_834
+15. [0, 1, 9, 11] Anita_Model_918
+16. [0, 1, 9, 11] Peggy_Model_509
+17. [0, 2, 18, 11] Stacy_Model_311
+18. [0, 3, 29, 10] Jonathan_Model_226
+19. [0, 3, 29, 10] Rebecca_Model_126
+20. [0, 3, 30, 10] Christy_Model_251
+21. [0, 3, 30, 10] Christine_Model_995
+22. [0, 1, 10, 10] Anthony_Model_316
+23. [0, 3, 32, 9] Tiffany_Model_262
+24. [0, 3, 32, 9] Mike_Model_141
+25. [0, 3, 32, 9] Jeanne_Model_210
+26. [0, 3, 32, 9] Susan_Model_853
+27. [0, 3, 33, 9] Joseph_Model_122
+28. [0, 3, 33, 9] Albert_Model_12
+29. [0, 1, 11, 9] Amanda_Model_111
+30. [0, 1, 12, 8] Ashley_Model_187
+31. [0, 6, 73, 8] Pamela_Model_635
+32. [0, 1, 13, 7] Ashley_Model_332
+33. [0, 1, 14, 7] Christina_Model_177
+34. [0, 5, 74, 6] Samuel_Model_572
+35. [0, 4, 68, 5] Deborah_Model_715
+36. [0, 4, 69, 5] Luis_Model_322
+37. [0, 4, 71, 5] Jennifer_Model_565
+38. [0, 4, 72, 5] Elizabeth_Model_219
+39. [0, 4, 74, 5] Rhonda_Model_137
+40. [0, 3, 66, 4] Elizabeth_Model_346
+41. [0, 3, 69, 4] Robert_Model_745
+42. [0, 3, 70, 4] Heather_Model_756
+43. [0, 0, 10, 0] Lauren_Model_262
+44. [-1, 4, 12, 33] Jessica_Model_999
+45. [-1, 2, 15, 13] Christopher_Model_603
+46. [-1, 0, 11, 0] Alejandra_Model_649
+47. [-2, 1, 10, 10] William_Model_353
+48. [-3, 4, 12, 33] Richard_Model_18
+49. [-4, 3, 11, 27] New_5_25_21_9_4
+50. [-6, 3, 13, 23] Henry_Model_896
+51. [-7, 3, 16, 18] Jorge_Model_349
+52. [-8, 1, 12, 8] New_5_25_21_9_6
+53. [-9, 5, 14, 35] New_5_25_21_9_3
+54. [-9, 2, 11, 18] New_5_25_21_9_1
+55. [-9, 2, 11, 18] New_5_25_21_9_9
+56. [-10, 1, 11, 9] New_5_25_21_9_10
+57. [-11, 1, 12, 8] New_5_25_21_9_5
+58. [-11, 1, 12, 8] New_5_25_21_9_8
+59. [-12, 1, 13, 7] New_5_25_21_9_2
+60. [-13, 3, 19, 15] New_5_25_21_9_7
+crossover 1 Jessica_Model_199
+crossover 1 Nathan_Model_286
+crossover 1 Carla_Model_53
+crossover 1 Christine_Model_440
+crossover 1 Michael_Model_467
+crossover 1 Tyrone_Model_172
+crossover 1 Madison_Model_559
+crossover 1 Ernest_Model_63
+crossover 1 Michael_Model_871
+crossover 2 Barbara_Model_683
+mutate add Wesley_Model_898
+mutate add Hector_Model_445
+mutate add Jennifer_Model_159
+mutate add Brandon_Model_280
+mutate add Christopher_Model_139
+mutate add Teresa_Model_712
+mutate add Linda_Model_940
+mutate add David_Model_351
+mutate add Daniel_Model_816
+mutate add Marie_Model_629
+mutate replace Raymond_Model_971
+mutate replace Jennifer_Model_353
+mutate replace Kelly_Model_552
+mutate replace Sarah_Model_540
+mutate replace Pamela_Model_872
+mutate replace Heather_Model_827
+mutate replace Isaac_Model_274
+mutate replace Alison_Model_684
+mutate replace Sierra_Model_709
+mutate replace Joshua_Model_766
+removed Pamela_Model_635
+removed Ashley_Model_332
+removed Christina_Model_177
+removed Samuel_Model_572
+removed Deborah_Model_715
+removed Luis_Model_322
+removed Jennifer_Model_565
+removed Elizabeth_Model_219
+removed Rhonda_Model_137
+removed Elizabeth_Model_346
+removed Robert_Model_745
+removed Heather_Model_756
+removed Lauren_Model_262
+removed Jessica_Model_999
+removed Christopher_Model_603
+removed Alejandra_Model_649
+removed William_Model_353
+removed Richard_Model_18
+removed New_5_25_21_9_4
+removed Henry_Model_896
+removed Jorge_Model_349
+removed New_5_25_21_9_6
+removed New_5_25_21_9_3
+removed New_5_25_21_9_1
+removed New_5_25_21_9_9
+removed New_5_25_21_9_10
+removed New_5_25_21_9_5
+removed New_5_25_21_9_8
+removed New_5_25_21_9_2
+removed New_5_25_21_9_7
+removed Christine_Model_995
+removed Anthony_Model_316
+removed Tiffany_Model_262
+removed Mike_Model_141
+removed Jeanne_Model_210
+removed Susan_Model_853
+removed Joseph_Model_122
+removed Albert_Model_12
+removed Amanda_Model_111
+removed Ashley_Model_187
+
+2025-05-25 22:12:19.806815
+01. [0, 2, 10, 20] Jonathan_Model_226
+02. [0, 2, 10, 20] Nathan_Model_286
+03. [0, 3, 15, 20] Carla_Model_53
+04. [0, 2, 10, 20] Brandon_Model_280
+05. [0, 2, 12, 16] Stacy_Model_311
+06. [0, 2, 13, 15] Margaret_Model_274
+07. [0, 2, 13, 15] Sierra_Model_709
+08. [0, 4, 33, 12] Christy_Model_251
+09. [0, 4, 33, 12] Timothy_Model_445
+10. [0, 2, 17, 11] Tyrone_Model_172
+11. [0, 1, 10, 10] Alicia_Model_522
+12. [0, 3, 30, 10] Christopher_Model_427
+13. [0, 1, 10, 10] Kent_Model_470
+14. [0, 1, 10, 10] Ashley_Model_534
+15. [0, 1, 10, 10] Taylor_Model_5
+16. [0, 1, 10, 10] Jessica_Model_199
+17. [0, 3, 30, 10] Linda_Model_940
+18. [0, 3, 31, 9] Anita_Model_918
+19. [0, 1, 11, 9] Ernest_Model_63
+20. [0, 3, 34, 8] Peggy_Model_509
+21. [0, 3, 34, 8] Selena_Model_97
+22. [0, 3, 34, 8] Heather_Model_827
+23. [0, 6, 70, 8] Christopher_Model_139
+24. [0, 1, 12, 8] Peter_Model_696
+25. [0, 1, 12, 8] Madison_Model_559
+26. [0, 1, 12, 8] Wesley_Model_898
+27. [0, 6, 74, 8] Michael_Model_871
+28. [0, 6, 77, 7] Teresa_Model_712
+29. [0, 6, 77, 7] Pamela_Model_872
+30. [0, 1, 13, 7] Isaac_Model_274
+31. [0, 5, 68, 7] Darren_Model_120
+32. [0, 2, 28, 7] David_Model_351
+33. [0, 1, 14, 7] Jennifer_Model_353
+34. [0, 5, 72, 6] Michael_Model_467
+35. [0, 2, 29, 6] Jennifer_Model_159
+36. [0, 1, 15, 6] Daniel_Model_816
+37. [0, 4, 72, 5] Christine_Model_440
+38. [0, 4, 72, 5] Marie_Model_629
+39. [0, 3, 62, 4] Thomas_Model_535
+40. [0, 3, 65, 4] Robert_Model_599
+41. [0, 0, 9, 0] Julie_Model_834
+42. [0, 0, 14, 0] Hector_Model_445
+43. [-1, 2, 10, 20] Kelly_Model_552
+44. [-1, 1, 11, 9] Joshua_Model_766
+45. [-1, 1, 16, 6] David_Model_356
+46. [-2, 2, 10, 20] Rebecca_Model_126
+47. [-2, 2, 11, 18] Alison_Model_684
+48. [-2, 2, 13, 15] Raymond_Model_971
+49. [-3, 2, 10, 20] Barbara_Model_683
+50. [-5, 4, 9, 44] New_5_25_21_41_3
+51. [-5, 2, 13, 15] Sarah_Model_540
+52. [-8, 1, 11, 9] New_5_25_21_41_4
+53. [-8, 1, 12, 8] New_5_25_21_41_7
+54. [-9, 5, 14, 35] New_5_25_21_41_2
+55. [-9, 3, 12, 25] New_5_25_21_41_5
+56. [-9, 3, 12, 25] New_5_25_21_41_9
+57. [-9, 1, 11, 9] New_5_25_21_41_1
+58. [-9, 1, 11, 9] New_5_25_21_41_10
+59. [-11, 1, 15, 6] New_5_25_21_41_6
+60. [-12, 2, 14, 14] New_5_25_21_41_8
+crossover 1 Claire_Model_450
+crossover 1 Rebekah_Model_883
+crossover 1 Brian_Model_744
+crossover 1 Ashlee_Model_486
+crossover 1 Joshua_Model_978
+crossover 1 Jonathan_Model_95
+crossover 1 Stephanie_Model_647
+crossover 1 Charles_Model_551
+crossover 1 Robert_Model_900
+crossover 2 Russell_Model_252
+mutate add Courtney_Model_617
+mutate add Charles_Model_377
+mutate add Alexa_Model_620
+mutate add Thomas_Model_42
+mutate add William_Model_863
+mutate add Daniel_Model_585
+mutate add Gary_Model_378
+mutate add Brian_Model_877
+mutate add John_Model_721
+mutate add Dominique_Model_121
+mutate replace Diane_Model_518
+mutate replace Roger_Model_786
+mutate replace Jennifer_Model_200
+mutate replace Troy_Model_841
+mutate replace Eugene_Model_589
+mutate replace Richard_Model_345
+mutate replace Jason_Model_168
+mutate replace Bradley_Model_458
+mutate replace Emily_Model_853
+mutate replace Marcia_Model_637
+removed Darren_Model_120
+removed David_Model_351
+removed Jennifer_Model_353
+removed Michael_Model_467
+removed Jennifer_Model_159
+removed Daniel_Model_816
+removed Christine_Model_440
+removed Marie_Model_629
+removed Thomas_Model_535
+removed Robert_Model_599
+removed Julie_Model_834
+removed Hector_Model_445
+removed Kelly_Model_552
+removed Joshua_Model_766
+removed David_Model_356
+removed Rebecca_Model_126
+removed Alison_Model_684
+removed Raymond_Model_971
+removed Barbara_Model_683
+removed New_5_25_21_41_3
+removed Sarah_Model_540
+removed New_5_25_21_41_4
+removed New_5_25_21_41_7
+removed New_5_25_21_41_2
+removed New_5_25_21_41_5
+removed New_5_25_21_41_9
+removed New_5_25_21_41_1
+removed New_5_25_21_41_10
+removed New_5_25_21_41_6
+removed New_5_25_21_41_8
+removed Selena_Model_97
+removed Heather_Model_827
+removed Christopher_Model_139
+removed Peter_Model_696
+removed Madison_Model_559
+removed Wesley_Model_898
+removed Michael_Model_871
+removed Teresa_Model_712
+removed Pamela_Model_872
+removed Isaac_Model_274
+
+#add MinimaxModel
+
+2025-05-27 14:03:26.701320
+01. [0, 4, 67, 5] Bradley_Model_458
+02. [0, 4, 69, 5] Peggy_Model_509
+03. [0, 2, 68, 2] Nathan_Model_286
+04. [-1, 2, 6, 33] Kent_Model_470
+05. [-1, 2, 6, 33] Linda_Model_940
+06. [-1, 2, 6, 33] Marcia_Model_637
+07. [-1, 2, 6, 33] Rebekah_Model_883
+08. [-1, 2, 6, 33] Richard_Model_345
+09. [-1, 2, 6, 33] Robert_Model_900
+10. [-1, 2, 6, 33] Roger_Model_786
+11. [-1, 2, 6, 33] Sierra_Model_709
+12. [-1, 2, 6, 33] Taylor_Model_5
+13. [-1, 2, 6, 33] Timothy_Model_445
+14. [-1, 2, 6, 33] William_Model_863
+15. [-1, 1, 6, 16] Brandon_Model_280
+16. [-1, 1, 6, 16] Brian_Model_744
+17. [-1, 1, 6, 16] Eugene_Model_589
+18. [-1, 1, 6, 16] Jessica_Model_199
+19. [-1, 1, 6, 16] Jonathan_Model_95
+20. [-1, 1, 6, 16] New_5_25_22_12_6
+21. [-1, 1, 6, 16] Tyrone_Model_172
+22. [-1, 2, 24, 8] Diane_Model_518
+23. [-1, 2, 26, 7] Christy_Model_251
+24. [-1, 2, 26, 7] Daniel_Model_585
+25. [-1, 2, 26, 7] Emily_Model_853
+26. [-1, 2, 26, 7] Ernest_Model_63
+27. [-1, 2, 26, 7] Gary_Model_378
+28. [-1, 2, 26, 7] Jennifer_Model_200
+29. [-1, 2, 26, 7] John_Model_721
+30. [-1, 2, 26, 7] Jonathan_Model_226
+31. [-1, 4, 67, 5] Anita_Model_918
+32. [-2, 3, 6, 50] Claire_Model_450
+33. [-2, 3, 6, 50] Courtney_Model_617
+34. [-2, 3, 6, 50] Stephanie_Model_647
+35. [-2, 2, 6, 33] Joshua_Model_978
+36. [-2, 2, 6, 33] Thomas_Model_42
+37. [-2, 1, 6, 16] Charles_Model_377
+38. [-2, 1, 6, 16] Charles_Model_551
+39. [-2, 1, 6, 16] Jason_Model_168
+40. [-2, 1, 6, 16] Margaret_Model_274
+41. [-2, 1, 6, 16] Stacy_Model_311
+42. [-2, 2, 26, 7] Dominique_Model_121
+43. [-2, 5, 68, 7] Alexa_Model_620
+44. [-2, 4, 68, 5] Alicia_Model_522
+45. [-2, 4, 68, 5] Christopher_Model_427
+46. [-2, 4, 69, 5] Ashley_Model_534
+47. [-2, 4, 70, 5] Ashlee_Model_486
+48. [-2, 3, 69, 4] Carla_Model_53
+49. [-3, 3, 6, 50] Brian_Model_877
+50. [-3, 3, 6, 50] Russell_Model_252
+51. [-3, 3, 6, 50] Troy_Model_841
+52. [-3, 2, 6, 33] New_5_25_22_12_3
+53. [-3, 1, 6, 16] New_5_25_22_12_2
+54. [-4, 2, 6, 33] New_5_25_22_12_10
+55. [-4, 2, 6, 33] New_5_25_22_12_4
+56. [-4, 2, 6, 33] New_5_25_22_12_8
+57. [-4, 2, 6, 33] New_5_25_22_12_9
+58. [-4, 1, 6, 16] New_5_25_22_12_5
+59. [-4, 1, 6, 16] New_5_25_22_12_7
+60. [-5, 1, 6, 16] New_5_25_22_12_1
+crossover 1 Jennifer_Model_891
+crossover 1 Julie_Model_21
+crossover 1 Nicole_Model_316
+crossover 1 Tracy_Model_969
+crossover 1 Daniel_Model_829
+crossover 1 Kevin_Model_975
+crossover 1 Tracy_Model_990
+crossover 1 Jacob_Model_581
+crossover 1 Patty_Model_97
+crossover 2 Bonnie_Model_299
+mutate add Deanna_Model_542
+mutate add Jesse_Model_518
+mutate add Shannon_Model_351
+mutate add Robert_Model_901
+mutate add Jacob_Model_669
+mutate add Derrick_Model_292
+mutate add Cesar_Model_421
+mutate add Denise_Model_152
+mutate add Hector_Model_155
+mutate add Craig_Model_152
+mutate replace Jacqueline_Model_437
+mutate replace Julie_Model_800
+mutate replace Nicole_Model_654
+mutate replace Alejandra_Model_895
+mutate replace Robert_Model_681
+mutate replace Dustin_Model_153
+mutate replace Brandon_Model_5
+mutate replace Dustin_Model_406
+mutate replace Victoria_Model_379
+mutate replace Michael_Model_705
+removed Anita_Model_918
+removed Claire_Model_450
+removed Courtney_Model_617
+removed Stephanie_Model_647
+removed Joshua_Model_978
+removed Thomas_Model_42
+removed Charles_Model_377
+removed Charles_Model_551
+removed Jason_Model_168
+removed Margaret_Model_274
+removed Stacy_Model_311
+removed Dominique_Model_121
+removed Alexa_Model_620
+removed Alicia_Model_522
+removed Christopher_Model_427
+removed Ashley_Model_534
+removed Ashlee_Model_486
+removed Carla_Model_53
+removed Brian_Model_877
+removed Russell_Model_252
+removed Troy_Model_841
+removed New_5_25_22_12_3
+removed New_5_25_22_12_2
+removed New_5_25_22_12_10
+removed New_5_25_22_12_4
+removed New_5_25_22_12_8
+removed New_5_25_22_12_9
+removed New_5_25_22_12_5
+removed New_5_25_22_12_7
+removed New_5_25_22_12_1
+removed Tyrone_Model_172
+removed Diane_Model_518
+removed Christy_Model_251
+removed Daniel_Model_585
+removed Emily_Model_853
+removed Ernest_Model_63
+removed Gary_Model_378
+removed Jennifer_Model_200
+removed John_Model_721
+removed Jonathan_Model_226
+
+2025-05-27 14:37:08.779626
+01. [0, 18, 52, 34] Peggy_Model_509
+02. [0, 17, 52, 32] Jennifer_Model_891
+03. [0, 17, 52, 32] Julie_Model_21
+04. [0, 16, 52, 30] Nathan_Model_286
+05. [0, 68, 258, 26] Bradley_Model_458
+06. [-3, 68, 256, 26] Brandon_Model_280
+07. [-3, 66, 257, 25] Alejandra_Model_895
+08. [-4, 18, 52, 34] Julie_Model_800
+09. [-4, 17, 52, 32] Eugene_Model_589
+10. [-4, 16, 52, 30] Jessica_Model_199
+11. [-4, 16, 52, 30] Kent_Model_470
+12. [-4, 16, 52, 30] Linda_Model_940
+13. [-4, 16, 52, 30] Robert_Model_681
+14. [-4, 16, 52, 30] Shannon_Model_351
+15. [-4, 16, 52, 30] Timothy_Model_445
+16. [-4, 16, 52, 30] Tracy_Model_969
+17. [-4, 15, 52, 28] Derrick_Model_292
+18. [-4, 15, 52, 28] Jacob_Model_581
+19. [-4, 15, 52, 28] Jacob_Model_669
+20. [-4, 15, 52, 28] Marcia_Model_637
+21. [-4, 15, 52, 28] Michael_Model_705
+22. [-4, 15, 52, 28] Patty_Model_97
+23. [-4, 15, 52, 28] Rebekah_Model_883
+24. [-4, 15, 52, 28] Roger_Model_786
+25. [-4, 15, 52, 28] Sierra_Model_709
+26. [-4, 75, 276, 27] Cesar_Model_421
+27. [-4, 14, 52, 26] Denise_Model_152
+28. [-4, 14, 52, 26] Richard_Model_345
+29. [-4, 14, 52, 26] Taylor_Model_5
+30. [-4, 69, 276, 25] Daniel_Model_829
+31. [-5, 17, 52, 32] Jacqueline_Model_437
+32. [-5, 15, 52, 28] Jesse_Model_518
+33. [-5, 15, 52, 28] Robert_Model_900
+34. [-5, 14, 52, 26] Nicole_Model_654
+35. [-5, 14, 52, 26] Robert_Model_901
+36. [-5, 14, 52, 26] William_Model_863
+37. [-5, 13, 52, 25] Tracy_Model_990
+38. [-5, 12, 52, 23] Jonathan_Model_95
+39. [-6, 16, 52, 30] Kevin_Model_975
+40. [-6, 15, 52, 28] Nicole_Model_316
+41. [-8, 63, 275, 22] Brian_Model_744
+42. [-11, 17, 52, 32] Dustin_Model_406
+43. [-12, 62, 276, 22] Deanna_Model_542
+44. [-20, 18, 52, 34] Victoria_Model_379
+45. [-20, 17, 52, 32] Dustin_Model_153
+46. [-30, 3, 52, 5] New_5_27_14_3_8
+47. [-31, 16, 52, 30] New_5_27_14_3_3
+48. [-37, 6, 52, 11] New_5_25_22_12_6
+49. [-38, 9, 52, 17] New_5_27_14_3_10
+50. [-40, 7, 52, 13] New_5_27_14_3_1
+51. [-42, 4, 52, 7] New_5_27_14_3_4
+52. [-43, 5, 52, 9] Hector_Model_155
+53. [-44, 6, 52, 11] New_5_27_14_3_7
+54. [-44, 1, 52, 1] New_5_27_14_3_5
+55. [-45, 7, 52, 13] New_5_27_14_3_2
+56. [-45, 7, 52, 13] New_5_27_14_3_6
+57. [-47, 5, 52, 9] New_5_27_14_3_9
+58. [-147, 45, 256, 17] Bonnie_Model_299
+59. [-217, 28, 258, 10] Brandon_Model_5
+60. [-226, 34, 280, 12] Craig_Model_152
+crossover 1 Sean_Model_707
+crossover 1 Gregory_Model_746
+crossover 1 Diane_Model_798
+crossover 1 Kelly_Model_76
+crossover 1 Jennifer_Model_124
+crossover 1 Lisa_Model_405
+crossover 1 Dawn_Model_621
+crossover 1 Rebekah_Model_945
+crossover 1 Brandy_Model_899
+crossover 2 Charles_Model_907
+mutate add Ashley_Model_174
+mutate add Catherine_Model_622
+mutate add Christopher_Model_263
+mutate add Shawn_Model_594
+mutate add Anthony_Model_255
+mutate add Christopher_Model_370
+mutate add Kenneth_Model_899
+mutate add Julie_Model_232
+mutate add Justin_Model_823
+mutate add Matthew_Model_744
+mutate replace Jonathan_Model_245
+mutate replace Michelle_Model_39
+mutate replace Peggy_Model_787
+mutate replace Katherine_Model_449
+mutate replace Patrick_Model_321
+mutate replace Paul_Model_78
+mutate replace Joseph_Model_691
+mutate replace Brian_Model_233
+mutate replace Chad_Model_253
+mutate replace Thomas_Model_747
+removed Jacqueline_Model_437
+removed Jesse_Model_518
+removed Robert_Model_900
+removed Nicole_Model_654
+removed Robert_Model_901
+removed William_Model_863
+removed Tracy_Model_990
+removed Jonathan_Model_95
+removed Kevin_Model_975
+removed Nicole_Model_316
+removed Brian_Model_744
+removed Dustin_Model_406
+removed Deanna_Model_542
+removed Victoria_Model_379
+removed Dustin_Model_153
+removed New_5_27_14_3_8
+removed New_5_27_14_3_3
+removed New_5_25_22_12_6
+removed New_5_27_14_3_10
+removed New_5_27_14_3_1
+removed New_5_27_14_3_4
+removed Hector_Model_155
+removed New_5_27_14_3_7
+removed New_5_27_14_3_5
+removed New_5_27_14_3_2
+removed New_5_27_14_3_6
+removed New_5_27_14_3_9
+removed Bonnie_Model_299
+removed Brandon_Model_5
+removed Craig_Model_152
+removed Michael_Model_705
+removed Patty_Model_97
+removed Rebekah_Model_883
+removed Roger_Model_786
+removed Sierra_Model_709
+removed Cesar_Model_421
+removed Denise_Model_152
+removed Richard_Model_345
+removed Taylor_Model_5
+removed Daniel_Model_829
+
+2025-05-27 15:24:45.544779
+01. [0, 86, 367, 23] Bradley_Model_458
+02. [0, 4, 18, 22] Charles_Model_907
+03. [0, 6, 32, 18] Diane_Model_798
+04. [0, 8, 46, 17] Julie_Model_21
+05. [0, 7, 45, 15] Jennifer_Model_891
+06. [0, 7, 46, 15] Kelly_Model_76
+07. [0, 9, 60, 15] Nathan_Model_286
+08. [0, 9, 60, 15] Peggy_Model_509
+09. [0, 9, 60, 15] Sean_Model_707
+10. [-3, 90, 374, 24] Brandon_Model_280
+11. [-3, 81, 343, 23] Ashley_Model_174
+12. [-3, 82, 371, 22] Alejandra_Model_895
+13. [-3, 3, 18, 16] Brandy_Model_899
+14. [-3, 3, 18, 16] Brian_Model_233
+15. [-3, 3, 18, 16] Catherine_Model_622
+16. [-3, 3, 18, 16] Chad_Model_253
+17. [-4, 6, 31, 19] Gregory_Model_746
+18. [-4, 6, 31, 19] Jacob_Model_581
+19. [-4, 6, 32, 18] Christopher_Model_370
+20. [-4, 5, 30, 16] Jacob_Model_669
+21. [-4, 5, 32, 15] Christopher_Model_263
+22. [-4, 5, 32, 15] Derrick_Model_292
+23. [-4, 4, 32, 12] Dawn_Model_621
+24. [-4, 3, 32, 9] Eugene_Model_589
+25. [-5, 8, 46, 17] Joseph_Model_691
+26. [-5, 8, 46, 17] Julie_Model_232
+27. [-5, 8, 46, 17] Justin_Model_823
+28. [-5, 7, 46, 15] Julie_Model_800
+29. [-5, 7, 46, 15] Katherine_Model_449
+30. [-5, 6, 45, 13] Jessica_Model_199
+31. [-6, 10, 60, 16] Shannon_Model_351
+32. [-6, 10, 60, 16] Shawn_Model_594
+33. [-6, 10, 60, 16] Thomas_Model_747
+34. [-6, 9, 60, 15] Kenneth_Model_899
+35. [-6, 9, 60, 15] Linda_Model_940
+36. [-6, 8, 60, 13] Kent_Model_470
+37. [-6, 8, 60, 13] Michelle_Model_39
+38. [-6, 8, 60, 13] Peggy_Model_787
+39. [-6, 8, 60, 13] Rebekah_Model_945
+40. [-6, 6, 60, 10] Lisa_Model_405
+41. [-6, 6, 60, 10] Robert_Model_681
+42. [-7, 9, 60, 15] Marcia_Model_637
+43. [-7, 9, 60, 15] Timothy_Model_445
+44. [-7, 9, 60, 15] Tracy_Model_969
+45. [-8, 86, 367, 23] Anthony_Model_255
+46. [-8, 7, 58, 12] Matthew_Model_744
+47. [-10, 9, 60, 15] Patrick_Model_321
+48. [-16, 6, 45, 13] Jonathan_Model_245
+49. [-27, 12, 60, 20] New_5_27_14_37_2
+50. [-27, 2, 31, 6] Jennifer_Model_124
+51. [-29, 5, 60, 8] New_5_27_14_37_3
+52. [-46, 9, 60, 15] Paul_Model_78
+53. [-47, 6, 60, 10] New_5_27_14_37_7
+54. [-50, 3, 60, 5] New_5_27_14_37_6
+55. [-53, 7, 60, 11] New_5_27_14_37_8
+56. [-53, 6, 60, 10] New_5_27_14_37_5
+57. [-53, 4, 60, 6] New_5_27_14_37_1
+58. [-55, 4, 60, 6] New_5_27_14_37_9
+59. [-56, 4, 60, 6] New_5_27_14_37_4
+60. [-56, 3, 60, 5] New_5_27_14_37_10
+crossover 1 Thomas_Model_564
+crossover 1 Heather_Model_972
+crossover 1 Robert_Model_317
+crossover 1 Christina_Model_829
+crossover 1 Joel_Model_901
+crossover 1 Robert_Model_965
+crossover 1 Mary_Model_282
+crossover 1 Grace_Model_462
+crossover 1 Jennifer_Model_14
+crossover 2 Walter_Model_662
+mutate add Beverly_Model_496
+mutate add Carla_Model_47
+mutate add Tamara_Model_227
+mutate add David_Model_705
+mutate add Brittany_Model_103
+mutate add Richard_Model_135
+mutate add Tiffany_Model_90
+mutate add Julia_Model_929
+mutate add Holly_Model_128
+mutate add Mikayla_Model_279
+mutate replace Kari_Model_208
+mutate replace Darlene_Model_118
+mutate replace Megan_Model_922
+mutate replace Carol_Model_935
+mutate replace Samantha_Model_742
+mutate replace Julia_Model_775
+mutate replace Tonya_Model_962
+mutate replace Melissa_Model_447
+mutate replace Sarah_Model_402
+mutate replace Lisa_Model_291
+removed Shannon_Model_351
+removed Shawn_Model_594
+removed Thomas_Model_747
+removed Kenneth_Model_899
+removed Linda_Model_940
+removed Kent_Model_470
+removed Michelle_Model_39
+removed Peggy_Model_787
+removed Rebekah_Model_945
+removed Lisa_Model_405
+removed Robert_Model_681
+removed Marcia_Model_637
+removed Timothy_Model_445
+removed Tracy_Model_969
+removed Anthony_Model_255
+removed Matthew_Model_744
+removed Patrick_Model_321
+removed Jonathan_Model_245
+removed New_5_27_14_37_2
+removed Jennifer_Model_124
+removed New_5_27_14_37_3
+removed Paul_Model_78
+removed New_5_27_14_37_7
+removed New_5_27_14_37_6
+removed New_5_27_14_37_8
+removed New_5_27_14_37_5
+removed New_5_27_14_37_1
+removed New_5_27_14_37_9
+removed New_5_27_14_37_4
+removed New_5_27_14_37_10
+removed Christopher_Model_263
+removed Derrick_Model_292
+removed Dawn_Model_621
+removed Eugene_Model_589
+removed Joseph_Model_691
+removed Julie_Model_232
+removed Justin_Model_823
+removed Julie_Model_800
+removed Katherine_Model_449
+removed Jessica_Model_199
+
+2025-05-27 16:27:53.456357
+01. [0, 2, 42, 4] Sean_Model_707
+02. [0, 1, 30, 3] Grace_Model_462
+03. [0, 1, 42, 2] Jennifer_Model_14
+04. [0, 1, 42, 2] Jennifer_Model_891
+05. [0, 1, 42, 2] Kelly_Model_76
+06. [0, 1, 42, 2] Mary_Model_282
+07. [0, 1, 42, 2] Thomas_Model_564
+08. [0, 1, 42, 2] Walter_Model_662
+09. [-5, 65, 310, 20] Ashley_Model_174
+10. [-5, 63, 309, 20] Beverly_Model_496
+11. [-5, 61, 315, 19] Brandon_Model_280
+12. [-5, 2, 18, 11] Brandy_Model_899
+13. [-5, 2, 18, 11] Brittany_Model_103
+14. [-5, 1, 18, 5] Brian_Model_233
+15. [-5, 1, 18, 5] Carla_Model_47
+16. [-5, 1, 18, 5] Carol_Model_935
+17. [-6, 54, 311, 17] Alejandra_Model_895
+18. [-6, 2, 30, 6] David_Model_705
+19. [-6, 1, 30, 3] Catherine_Model_622
+20. [-6, 1, 30, 3] Chad_Model_253
+21. [-6, 1, 30, 3] Christopher_Model_370
+22. [-6, 1, 30, 3] Gregory_Model_746
+23. [-7, 2, 42, 4] Jacob_Model_581
+24. [-7, 2, 42, 4] Jacob_Model_669
+25. [-7, 2, 42, 4] Julia_Model_929
+26. [-7, 2, 42, 4] Lisa_Model_291
+27. [-7, 2, 42, 4] Megan_Model_922
+28. [-7, 2, 42, 4] Mikayla_Model_279
+29. [-7, 2, 42, 4] Richard_Model_135
+30. [-7, 1, 42, 2] Holly_Model_128
+31. [-7, 1, 42, 2] Julia_Model_775
+32. [-7, 1, 42, 2] Kari_Model_208
+33. [-7, 1, 42, 2] Melissa_Model_447
+34. [-7, 1, 42, 2] Samantha_Model_742
+35. [-7, 1, 42, 2] Tamara_Model_227
+36. [-8, 1, 42, 2] Robert_Model_317
+37. [-8, 1, 42, 2] Sarah_Model_402
+38. [-8, 0, 42, 0] Tonya_Model_962
+39. [-11, 103, 172, 71] Charles_Model_907
+40. [-11, 103, 172, 71] Christina_Model_829
+41. [-11, 103, 172, 71] Diane_Model_798
+42. [-11, 103, 184, 71] Heather_Model_972
+43. [-11, 103, 184, 71] Joel_Model_901
+44. [-11, 103, 184, 71] Julie_Model_21
+45. [-11, 103, 184, 71] Nathan_Model_286
+46. [-11, 103, 184, 71] Peggy_Model_509
+47. [-11, 103, 184, 71] Robert_Model_965
+48. [-11, 165, 453, 71] Bradley_Model_458
+49. [-14, 2, 30, 6] Darlene_Model_118
+50. [-19, 1, 42, 2] Tiffany_Model_90
+51. [-35, 1, 42, 2] New_5_27_15_24_2
+52. [-37, 2, 42, 4] New_5_27_15_24_1
+53. [-38, 1, 42, 2] New_5_27_15_24_4
+54. [-38, 1, 42, 2] New_5_27_15_24_8
+55. [-40, 1, 42, 2] New_5_27_15_24_3
+56. [-41, 1, 42, 2] New_5_27_15_24_7
+57. [-41, 0, 42, 0] New_5_27_15_24_10
+58. [-41, 0, 42, 0] New_5_27_15_24_6
+59. [-42, 0, 42, 0] New_5_27_15_24_5
+60. [-42, 0, 42, 0] New_5_27_15_24_9
+crossover 1 Valerie_Model_106
+crossover 1 Joseph_Model_262
+crossover 1 Sophia_Model_653
+crossover 1 Ryan_Model_187
+crossover 1 William_Model_794
+crossover 1 Elizabeth_Model_711
+crossover 1 Roger_Model_109
+crossover 1 Donna_Model_965
+crossover 1 Katie_Model_827
+crossover 2 Adam_Model_26
+mutate add Janice_Model_355
+mutate add Kayla_Model_856
+mutate add Toni_Model_894
+mutate add Crystal_Model_175
+mutate add Brittany_Model_399
+mutate add Mary_Model_861
+mutate add Devon_Model_564
+mutate add Brian_Model_357
+mutate add Aaron_Model_745
+mutate add Francisco_Model_37
+mutate replace John_Model_743
+mutate replace Danny_Model_308
+mutate replace Paul_Model_118
+mutate replace Kathleen_Model_395
+mutate replace Douglas_Model_519
+mutate replace Samantha_Model_276
+mutate replace Mark_Model_488
+mutate replace Alyssa_Model_649
+mutate replace Douglas_Model_397
+mutate replace Amanda_Model_775
+removed Julia_Model_775
+removed Kari_Model_208
+removed Melissa_Model_447
+removed Samantha_Model_742
+removed Tamara_Model_227
+removed Robert_Model_317
+removed Sarah_Model_402
+removed Tonya_Model_962
+removed Charles_Model_907
+removed Christina_Model_829
+removed Diane_Model_798
+removed Heather_Model_972
+removed Joel_Model_901
+removed Julie_Model_21
+removed Nathan_Model_286
+removed Peggy_Model_509
+removed Robert_Model_965
+removed Bradley_Model_458
+removed Darlene_Model_118
+removed Tiffany_Model_90
+removed New_5_27_15_24_2
+removed New_5_27_15_24_1
+removed New_5_27_15_24_4
+removed New_5_27_15_24_8
+removed New_5_27_15_24_3
+removed New_5_27_15_24_7
+removed New_5_27_15_24_10
+removed New_5_27_15_24_6
+removed New_5_27_15_24_5
+removed New_5_27_15_24_9
+removed Christopher_Model_370
+removed Gregory_Model_746
+removed Jacob_Model_581
+removed Jacob_Model_669
+removed Julia_Model_929
+removed Lisa_Model_291
+removed Megan_Model_922
+removed Mikayla_Model_279
+removed Richard_Model_135
+removed Holly_Model_128
+
+# rework tournament
+
+2025-05-27 22:40:58.505698
+01. [-62, 523, 817, 7]   Kayla_Model_856      age=01
+02. [-66, 503, 819, 8]   Carol_Model_935      age=01
+03. [-67, 544, 788, 8]   Amanda_Model_775     age=01
+04. [-67, 474, 751, 8]   Kelly_Model_76       age=01
+05. [-68, 502, 794, 8]   Thomas_Model_564     age=01
+06. [-69, 509, 785, 8]   Brandy_Model_899     age=01
+07. [-70, 533, 881, 7]   Samantha_Model_276   age=01
+08. [-71, 490, 826, 8]   Adam_Model_26        age=01
+09. [-72, 475, 750, 9]   Brian_Model_357      age=01
+10. [-73, 457, 687, 10]  John_Model_743       age=01
+11. [-76, 481, 788, 9]   William_Model_794    age=01
+12. [-77, 511, 770, 10]  Beverly_Model_496    age=01
+13. [-77, 489, 803, 9]   Mary_Model_282       age=01
+14. [-77, 481, 782, 9]   Sophia_Model_653     age=01
+15. [-78, 524, 866, 9]   Mary_Model_861       age=01
+16. [-79, 510, 786, 10]  Ashley_Model_174     age=01
+17. [-79, 520, 835, 9]   Toni_Model_894       age=01
+18. [-79, 487, 794, 9]   Valerie_Model_106    age=01
+19. [-81, 478, 793, 10]  Walter_Model_662     age=01
+20. [-82, 519, 840, 9]   Donna_Model_965      age=01
+21. [-83, 495, 782, 10]  Jennifer_Model_891   age=01
+22. [-85, 478, 791, 10]  Ryan_Model_187       age=01
+23. [-86, 494, 781, 11]  Elizabeth_Model_711  age=01
+24. [-87, 471, 780, 11]  Sean_Model_707       age=01
+25. [-88, 495, 736, 11]  Chad_Model_253       age=01
+26. [-89, 483, 794, 11]  Roger_Model_109      age=01
+27. [-89, 503, 844, 10]  Brittany_Model_103   age=01
+28. [-89, 498, 819, 10]  David_Model_705      age=01
+29. [-90, 503, 783, 11]  Kathleen_Model_395   age=01
+30. [-91, 514, 848, 10]  Brian_Model_233      age=01
+31. [-92, 463, 798, 11]  Crystal_Model_175    age=01
+32. [-92, 468, 786, 11]  Grace_Model_462      age=01
+33. [-93, 474, 769, 12]  Joseph_Model_262     age=01
+34. [-93, 520, 837, 11]  Jennifer_Model_14    age=01
+35. [-94, 537, 902, 10]  Paul_Model_118       age=01
+36. [-95, 489, 740, 12]  Francisco_Model_37   age=01
+37. [-95, 537, 858, 11]  Carla_Model_47       age=01
+38. [-96, 456, 803, 11]  Katie_Model_827      age=01
+39. [-99, 512, 845, 11]  Danny_Model_308      age=01
+40. [-104, 512, 849, 12] Mark_Model_488       age=01
+41. [-107, 519, 881, 12] Catherine_Model_622  age=01
+42. [-111, 540, 887, 12] Aaron_Model_745      age=01
+43. [-118, 492, 808, 14] Janice_Model_355     age=01
+44. [-119, 559, 869, 13] Alejandra_Model_895  age=01
+45. [-120, 536, 832, 14] Devon_Model_564      age=01
+46. [-123, 502, 809, 15] Brandon_Model_280    age=01
+47. [-132, 533, 876, 15] Douglas_Model_519    age=01
+48. [-458, 494, 1132, 40] New_5_27_16_27_8     age=01
+49. [-499, 497, 1104, 45] New_5_27_16_27_5     age=01
+50. [-523, 407, 1166, 44] Douglas_Model_397    age=01
+51. [-539, 493, 1165, 46] New_5_27_16_27_9     age=01
+52. [-562, 447, 1129, 49] Alyssa_Model_649     age=01
+53. [-569, 309, 1021, 55] New_5_27_16_27_7     age=01
+54. [-675, 258, 1197, 56] New_5_27_16_27_2     age=01
+55. [-680, 248, 1065, 63] New_5_27_16_27_3     age=01
+56. [-690, 282, 1158, 59] Brittany_Model_399   age=01
+57. [-693, 238, 1219, 56] New_5_27_16_27_1     age=01
+58. [-728, 286, 1185, 61] New_5_27_16_27_6     age=01
+59. [-772, 186, 1215, 63] New_5_27_16_27_10    age=01
+60. [-874, 232, 1204, 72] New_5_27_16_27_4     age=01
+crossover 1 Sandra_Model_983
+crossover 1 Rebecca_Model_679
+crossover 1 Alicia_Model_124
+crossover 1 Jessica_Model_937
+crossover 1 Patrick_Model_242
+crossover 1 Beth_Model_94
+crossover 1 Tina_Model_258
+crossover 1 Dana_Model_159
+crossover 1 James_Model_215
+crossover 2 Teresa_Model_119
+mutate add Samantha_Model_379
+mutate add Julie_Model_286
+mutate add Michael_Model_813
+mutate add Stephen_Model_996
+mutate add Audrey_Model_983
+mutate add Joshua_Model_808
+mutate add Janice_Model_655
+mutate add Elizabeth_Model_156
+mutate add Erik_Model_190
+mutate add Elizabeth_Model_202
+mutate replace James_Model_105
+mutate replace Erica_Model_977
+mutate replace Randy_Model_548
+mutate replace Natalie_Model_2
+mutate replace Thomas_Model_920
+mutate replace Tyler_Model_754
+mutate replace Katherine_Model_359
+mutate replace Ernest_Model_300
+mutate replace Chelsea_Model_353
+mutate replace Julie_Model_961
+removed Crystal_Model_175
+removed Grace_Model_462
+removed Joseph_Model_262
+removed Jennifer_Model_14
+removed Paul_Model_118
+removed Francisco_Model_37
+removed Carla_Model_47
+removed Katie_Model_827
+removed Danny_Model_308
+removed Mark_Model_488
+removed Catherine_Model_622
+removed Aaron_Model_745
+removed Janice_Model_355
+removed Alejandra_Model_895
+removed Devon_Model_564
+removed Brandon_Model_280
+removed Douglas_Model_519
+removed New_5_27_16_27_8
+removed New_5_27_16_27_5
+removed Douglas_Model_397
+removed New_5_27_16_27_9
+removed Alyssa_Model_649
+removed New_5_27_16_27_7
+removed New_5_27_16_27_2
+removed New_5_27_16_27_3
+removed Brittany_Model_399
+removed New_5_27_16_27_1
+removed New_5_27_16_27_6
+removed New_5_27_16_27_10
+removed New_5_27_16_27_4
+removed Jennifer_Model_891
+removed Ryan_Model_187
+removed Elizabeth_Model_711
+removed Sean_Model_707
+removed Chad_Model_253
+removed Roger_Model_109
+removed Brittany_Model_103
+removed David_Model_705
+removed Kathleen_Model_395
+removed Brian_Model_233
+

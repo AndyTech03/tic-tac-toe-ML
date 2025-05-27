@@ -28,6 +28,7 @@ class ModelConfig:
             input_strategy_number: int, output_strategy_number: int,
             use_bias: bool=False, use_attention: bool=False, model_name: str=None
             ):
+        self.age = 1
         self.model_name = model_name if model_name is not None else generate_model_name()
         self.hidden_structure = hidden_structure
         self.input_strategy_number = input_strategy_number

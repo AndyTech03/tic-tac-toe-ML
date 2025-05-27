@@ -1,3 +1,4 @@
+import pickle
 import shutil
 import numpy as np
 import os
@@ -21,13 +22,21 @@ class TensorflowModel:
     def fromFile(dir, model_name: str):
         config: ModelConfig = ModelConfig.load_model(dir, model_name)
         config.model_name = model_name
-        t_model = TensorflowModel(config)
-        t_model.load_model(dir)
+        t_model = TensorflowModel(config, False, dir)
         return t_model
 
-    def __init__(self, config: ModelConfig):
+    def __init__(self, config: ModelConfig, new=True, dir=''):
         """Создание модели на основе структуры, определённой в конфигурации."""
         self.config = config.clone()
+        if new:
+            self.build_model()
+        else:
+            self.load_model(dir)
+
+    def increment_age(self):
+        self.config.age += 1
+        
+    def build_model(self):
         self.model = models.Sequential()
         # Входные слои
         input_structure = self.config.get_input_structure()
@@ -52,7 +61,7 @@ class TensorflowModel:
             loss=BinaryCrossentropy(), 
             metrics=['accuracy', 'mse']
             )
-    
+
     @staticmethod
     # @njit()
     def get_train_data(
@@ -226,24 +235,29 @@ class TensorflowModel:
 
     def save_weights(self, dir):
         """Сохранение весов модели."""
-        weights = self.model.get_weights()
-        self.config.save_weights(weights, dir)
+        weights_path = os.path.join(dir, self.config.model_name, "model.weights.h5")
+        self.model.save_weights(weights_path)
     
     def load_weights(self, dir):
         """Загрузка весов модели."""
-        weights = self.config.load_weights(dir)
-        self.model.set_weights(weights)
+        weights_path = os.path.join(dir, self.config.model_name, "model.weights.h5")
+        if os.path.isfile(weights_path):
+            self.model.load_weights(weights_path)
+        else:
+            print('Weights file not found!', self.config.model_name)
     
     def save_model(self, dir):
         """Сохранение полной модели в формате TensorFlow."""
         model_path = os.path.join(dir, self.config.model_name, "tensorflow_model.keras")
         self.config.save_model(dir)
         self.model.save(model_path)
+        self.save_weights(dir)
     
     def load_model(self, dir):
         """Загрузка полной модели из сохранённого формата TensorFlow."""
         model_path = os.path.join(dir, self.config.model_name, "tensorflow_model.keras")
         self.model = models.load_model(model_path)
+        self.load_weights(dir)
 
     def remove_model(self, dir):
         model_path = os.path.join(dir, self.config.model_name)
@@ -251,3 +265,20 @@ class TensorflowModel:
             print(f'model `{self.config.model_name}` not saved yet.')
             return
         shutil.rmtree(model_path)
+
+    def save_score(self, dir, wins, loses, total):
+        score_path = os.path.join(dir, self.config.model_name, "score.pkl")
+        os.makedirs(os.path.dirname(score_path), exist_ok=True)
+        score = wins, loses, total
+        with open(score_path, 'wb') as file:
+            pickle.dump(score, file)
+
+    def load_score(self, dir):
+        score_path = os.path.join(dir, self.config.model_name, "score.pkl")
+        if not os.path.isfile(score_path):
+            print(f'score `{self.config.model_name}` not saved yet.')
+            return 0, 0, 0, 0
+        with open(score_path, 'rb') as file:
+            loses, wins, total = pickle.load(file)
+            win_rate = int(wins / total * 100) if total != 0 else 0
+            return loses, wins, total, win_rate
