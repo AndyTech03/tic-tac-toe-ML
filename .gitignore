@@ -2,9 +2,8 @@
 /tic-tac-toe-5-training/tournament
 /tic-tac-toe-5-training/duels
 /tensorflow_env
-~$Р Коковихин 1.docx
-~WRL0003.tmp
-ВКР Коковихин 1.docx
-Контрольная точка 1.pptx
-Курсовой 1.pptx
-Курсовой 3.docx
+*.tmp
+*.pptx
+*.docx
+*.pyc
+*.pdf

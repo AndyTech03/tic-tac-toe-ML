@@ -232,13 +232,16 @@ if __name__ == '__main__':
 		processes = []
 		test_results = []
 		step = 5
-		indices = [(start, start+step) for start in range(0, models_count, step)]
+		testing_models = [
+			model for model in models
+			if model.load_score(tournament_dir)[2] == 0]
+		indices = [(start, start+step) for start in range(0, len(testing_models), step)]
 		for start, end in indices:
 			# top_models = [models[i] for i, _ in results[start:end]]
 			t = Process(
 				target=test_models,
 				# args=(tournament_dir, top_models)
-				args=(tournament_dir, models[start:end])
+				args=(tournament_dir, testing_models[start:end])
 			)
 			processes.append(t)
 		start = time.time()
@@ -265,6 +268,7 @@ if __name__ == '__main__':
 		print()
 
 		now = datetime.datetime.now()
+		now_file_postfix = f'{now.month}_{now.day}_{now.hour}_{now.minute}'
 		print(now)
 		del_list = []
 		add_list = []
@@ -280,7 +284,7 @@ if __name__ == '__main__':
 				deleting: tm.TensorflowModel = models[i]
 				del_list.append(deleting)
 
-			for i in range(1, 10):
+			for i in range(1, 20):
 				parent1: tm.TensorflowModel = models[results[0][0]]
 				parent2: tm.TensorflowModel = models[results[i][0]]
 				child = parent1.crossover_models(parent2)
@@ -293,12 +297,6 @@ if __name__ == '__main__':
 				child = parent1.crossover_models(parent2)
 				file.write(f'crossover 2 {child.config.model_name}\n')
 				add_list.append(child)
-
-			for i, result in results[10:20]:
-				source: tm.TensorflowModel = models[i]
-				mutant = source.mutate_model()
-				file.write(f'mutate add {mutant.config.model_name}\n')
-				add_list.append(mutant)
 			
 			for i, result in results[20:30]:
 				deleting: tm.TensorflowModel = models[i]
@@ -311,21 +309,6 @@ if __name__ == '__main__':
 		for i, result in results[:3]:
 			models[i].save_model(f'{tournament_dir}/!top_{counter}')
 			counter += 1
-
-		now_file_postfix = f'{now.month}_{now.day}_{now.hour}_{now.minute}'
-		raw_models = []
-		for i in range(1, 11):
-			new_name = f'New_{now_file_postfix}_{i}'
-			new_config = mc.ModelConfig(
-				hidden_structure=[81, 81, 27], 
-				input_strategy_number=i, 
-				output_strategy_number=1, 
-				use_bias=True,
-				use_attention=False,
-				model_name=new_name
-			)
-			new_model = tm.TensorflowModel(new_config)
-			raw_models.append(new_model)
 
 		with open('training.log', 'a') as file:
 			for deleting in del_list:
@@ -354,53 +337,12 @@ if __name__ == '__main__':
 			processes[i].join()
 		end = time.time()
 
-		processes = []
-		for model in models:
-			strategy = model.config.input_strategy_number
-			t = Process(
-			target=train, 
-				args=(
-					tournament_dir, 
-					model, 
-					10,
-					train_datasets[strategy],
-					test_datasets[strategy]
-					))
-			processes.append(t)
-		start = time.time()
-		for i in range(len(processes)):
-			processes[i].start()
-		for i in range(len(processes)):
-			processes[i].join()
-		end = time.time()
-
-		processes = []
-		for model in raw_models:
-			strategy = model.config.input_strategy_number
-			t = Process(
-			target=train, 
-				args=(
-					tournament_dir, 
-					model, 
-					20,
-					train_datasets[strategy],
-					test_datasets[strategy]
-					))
-			processes.append(t)
-		start = time.time()
-		for i in range(len(processes)):
-			processes[i].start()
-		for i in range(len(processes)):
-			processes[i].join()
-		end = time.time()
-		print(f"All trainings took {end-start:.1f} seconds")
+		print(f"Trainings took {end-start:.1f} seconds")
 		
 		for model in models:
 			model.increment_age()
 		for adding in add_list:
 			models.append(adding)
-		for raw_model in raw_models:
-			models.append(raw_model)
 		for model in models:
 			model.save_model(tournament_dir)
 		shutil.copytree(tournament_dir, f'archive/{now_file_postfix}')
