@@ -123,27 +123,27 @@ def main():
     parser.add_argument('--workers', type=int, default=8, help='Number of threads')
     args = parser.parse_args()
 
-    t_model = MinimaxModel(1)
-    model_name = 'MinimaxModel'
-    # for model_name in args.models_names.split(','):
-        # load model twice for X and O
-        # t_model = TensorflowModel.fromFile(args.model_dir, model_name)
-    print(f"Testing model '{model_name}' as X...")
-    stats_x, logs_x = test_model(t_model, True, args.workers)
-    print(f"As X: total={stats_x['total']}, wins={stats_x['wins']}, draws={stats_x['draws']}, losses={stats_x['losses']}")
-    stats_o, logs_o = test_model(t_model, False, args.workers)
-    print(f"As O: total={stats_o['total']}, wins={stats_o['wins']}, draws={stats_o['draws']}, losses={stats_o['losses']}")
-    print()
-    # save logs
-    with open('model_endings.log', 'a') as f:
-        f.write(f'# {model_name}\n')
-        f.write('# Model played as X\n')
-        for x_moves, o_moves, is_x, status in logs_x:
-            f.write(f"X_moves={x_moves}, O_moves={o_moves}, model_is_x={is_x}, status={status}\n")
-        f.write('# Model played as O\n')
-        for x_moves, o_moves, is_x, status in logs_o:
-            f.write(f"X_moves={x_moves}, O_moves={o_moves}, model_is_x={is_x}, status={status}\n")
-    print('Testing completed. Logs written to model_endings.log')
+    for model_name in args.models_names.split(','):
+        if model_name == 'MinimaxModel':    
+            t_model = MinimaxModel(1)
+        else:
+            t_model = TensorflowModel.fromFile(args.model_dir, model_name)
+        print(f"Testing model '{model_name}' as X...")
+        stats_x, logs_x = test_model(t_model, True, args.workers)
+        print(f"As X: total={stats_x['total']}, wins={stats_x['wins']}, draws={stats_x['draws']}, losses={stats_x['losses']}")
+        stats_o, logs_o = test_model(t_model, False, args.workers)
+        print(f"As O: total={stats_o['total']}, wins={stats_o['wins']}, draws={stats_o['draws']}, losses={stats_o['losses']}")
+        print()
+        # save logs
+        with open('model_endings.log', 'a') as f:
+            f.write(f'# {model_name}\n')
+            f.write('# Model played as X\n')
+            for x_moves, o_moves, is_x, status in logs_x:
+                f.write(f"X_moves={x_moves}, O_moves={o_moves}, model_is_x={is_x}, status={status}\n")
+            f.write('# Model played as O\n')
+            for x_moves, o_moves, is_x, status in logs_o:
+                f.write(f"X_moves={x_moves}, O_moves={o_moves}, model_is_x={is_x}, status={status}\n")
+        # print('Testing completed. Logs written to model_endings.log')
 
 
 if __name__ == '__main__':
